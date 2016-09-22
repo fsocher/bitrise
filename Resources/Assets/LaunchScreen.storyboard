@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoColored" translatesAutoresizingMaskIntoConstraints="NO" id="3vt-Ov-nf4">
+                                <rect key="frame" x="113" y="180" width="375" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3vt-Ov-nf4" secondAttribute="height" multiplier="25:16" id="5VI-dX-PPV"/>
+                                    <constraint firstAttribute="width" secondItem="3vt-Ov-nf4" secondAttribute="height" multiplier="25:16" id="H4O-Mi-DCE"/>
+                                    <constraint firstAttribute="width" secondItem="3vt-Ov-nf4" secondAttribute="height" multiplier="25:16" id="oIb-vO-xLW"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5VI-dX-PPV"/>
+                                        <exclude reference="H4O-Mi-DCE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="H4O-Mi-DCE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="113" y="180" width="375" height="240"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="75" y="207" width="250" height="160"/>
+                                    <mask key="constraints">
+                                        <include reference="5VI-dX-PPV"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="3vt-Ov-nf4" secondAttribute="trailing" constant="130" id="5zo-dC-6K1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3vt-Ov-nf4" secondAttribute="trailing" constant="92" id="FOZ-nx-aB5"/>
+                            <constraint firstItem="3vt-Ov-nf4" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="93" id="GaF-0f-pq1"/>
+                            <constraint firstItem="3vt-Ov-nf4" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="160" id="TfP-qq-Uon"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3vt-Ov-nf4" secondAttribute="trailing" constant="92" id="UdD-pT-hSz"/>
+                            <constraint firstItem="3vt-Ov-nf4" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="60" id="ZTz-l4-E15"/>
+                            <constraint firstItem="3vt-Ov-nf4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="93" id="aq2-lf-0vB"/>
+                            <constraint firstItem="3vt-Ov-nf4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="93" id="cho-qg-cuJ"/>
+                            <constraint firstItem="3vt-Ov-nf4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="130" id="won-Dp-6pv"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5zo-dC-6K1"/>
+                                <exclude reference="FOZ-nx-aB5"/>
+                                <exclude reference="GaF-0f-pq1"/>
+                                <exclude reference="ZTz-l4-E15"/>
+                                <exclude reference="cho-qg-cuJ"/>
+                                <exclude reference="won-Dp-6pv"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="FOZ-nx-aB5"/>
+                                <include reference="ZTz-l4-E15"/>
+                                <include reference="cho-qg-cuJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="5zo-dC-6K1"/>
+                                <include reference="GaF-0f-pq1"/>
+                                <include reference="won-Dp-6pv"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LogoColored" width="500" height="320"/>
+    </resources>
+</document>

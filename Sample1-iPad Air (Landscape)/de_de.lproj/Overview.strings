@@ -1,0 +1,33 @@
+/* TextDefinition = "button_off"; text = "Aus"; ObjectID = "604-6a-d55.normalTitle"; */
+"604-6a-d55.normalTitle" = "Aus";
+
+/* TextDefinition = "button_off"; text = "Aus"; ObjectID = "2c4-59-a32.normalTitle"; */
+"2c4-59-a32.normalTitle" = "Aus";
+
+/* TextDefinition = "value_placeholder"; text = "Wert"; ObjectID = "ad1-8d-677.text"; */
+"ad1-8d-677.text" = "Wert";
+
+/* TextDefinition = "state"; text = "Status:"; ObjectID = "c33-c1-3a5.text"; */
+"c33-c1-3a5.text" = "Status:";
+
+/* TextDefinition = "value_placeholder"; text = "Wert"; ObjectID = "c7b-8f-7a3.text"; */
+"c7b-8f-7a3.text" = "Wert";
+
+/* TextDefinition = "button_on"; text = "An"; ObjectID = "148-d0-029.normalTitle"; */
+"148-d0-029.normalTitle" = "An";
+
+/* TextDefinition = "value_placeholder"; text = "Wert"; ObjectID = "645-0e-6b6.text"; */
+"645-0e-6b6.text" = "Wert";
+
+/* TextDefinition = "button_on"; text = "An"; ObjectID = "051-47-3a5.normalTitle"; */
+"051-47-3a5.normalTitle" = "An";
+
+/* TextDefinition = "power"; text = "Leistung:"; ObjectID = "80c-b4-5d4.text"; */
+"80c-b4-5d4.text" = "Leistung:";
+
+/* TextDefinition = "night_mode"; text = "Nachtmodus:"; ObjectID = "a47-d6-bdc.text"; */
+"a47-d6-bdc.text" = "Nachtmodus:";
+
+/* TextDefinition = "timestamp_placeholder"; text = "Zeitstempel"; ObjectID = "791-7b-dbf.text"; */
+"791-7b-dbf.text" = "Zeitstempel";
+

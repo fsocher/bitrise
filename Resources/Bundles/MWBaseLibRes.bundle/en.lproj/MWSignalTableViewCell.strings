@@ -1,0 +1,29 @@
+
+/* Class = "UILabel"; text = "Assigned Name"; ObjectID = "0Le-ha-L9O"; */
+"0Le-ha-L9O.text" = "Assigned Name";
+
+/* Class = "UISegmentedControl"; 1mN-s2-ZEN.segmentTitles[0] = "None"; ObjectID = "1mN-s2-ZEN"; */
+"1mN-s2-ZEN.segmentTitles[0]" = "None";
+
+/* Class = "UISegmentedControl"; 1mN-s2-ZEN.segmentTitles[1] = "Left"; ObjectID = "1mN-s2-ZEN"; */
+"1mN-s2-ZEN.segmentTitles[1]" = "Left";
+
+/* Class = "UISegmentedControl"; 1mN-s2-ZEN.segmentTitles[2] = "Right"; ObjectID = "1mN-s2-ZEN"; */
+"1mN-s2-ZEN.segmentTitles[2]" = "Right";
+
+/* Class = "UILabel"; text = "Label for graph"; ObjectID = "2rq-ZA-7mR"; */
+"2rq-ZA-7mR.text" = "Label for graph";
+
+/* Class = "UIView"; accessibilityLabel = "settingsTableView"; ObjectID = "LcN-bb-LTp"; */
+"LcN-bb-LTp.accessibilityLabel" = "settingsTableView";
+
+/* Class = "UILabel"; text = "Assigned To"; ObjectID = "XDT-rR-7uK"; */
+"XDT-rR-7uK.text" = "Assigned To";
+
+/* Class = "UILabel"; text = "SignalName"; ObjectID = "iU9-e3-VZa"; */
+"iU9-e3-VZa.text" = "SignalName";
+
+/* Class = "UILabel"; text = "Assign to Axis"; ObjectID = "scp-1P-fVB"; */
+"scp-1P-fVB.text" = "Assign to Axis";
+
+"x1r-ws-C1P.text" = "Color";

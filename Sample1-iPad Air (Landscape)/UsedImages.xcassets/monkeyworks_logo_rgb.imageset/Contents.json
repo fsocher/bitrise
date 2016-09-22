@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "idiom": "universal",
+      "scale": "1x",
+      "filename": "mw_rgb_small.png"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x",
+      "filename": "mw_rgb_small.png"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x",
+      "filename": "mw_rgb_small.png"
+    }
+  ],
+  "info": {
+    "version": 1,
+    "author": "xcode"
+  }
+}

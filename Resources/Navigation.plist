@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Panels</key>
+	<array>
+			<string>Overview</string>
+			<string>AlarmView</string>
+	</array>
+	<key>Flows</key>
+	<array>
+			<dict>
+				<key>Name</key>
+				<string>root</string>
+				<key>Destination</key>
+				<string>Overview</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>overview_alarm</string>
+				<key>Destination</key>
+				<string>AlarmView</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>alarm_overview</string>
+				<key>Destination</key>
+				<string>Overview</string>
+			</dict>
+	</array>
+</dict>
+</plist>

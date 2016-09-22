@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OverviewPanelController">
+            <connections>
+                <outlet property="view" destination="61d-b7-698" id="896-bd-689"/>
+                <outlet property="grass_0_view" destination="8a6-8d-08d" id="3c1-15-438"/>
+                <outlet property="sky_0_view" destination="54f-d9-cf3" id="a7d-f0-9d2"/>
+                <outlet property="trend_c9a4_0_view" destination="c06-ac-dc9" id="60c-e5-ea8"/>
+                <outlet property="trend_da6d_0_view" destination="e6a-60-9da" id="cbe-53-248"/>
+                <outlet property="label_df18_0_view" destination="7b7-ff-4df" id="237-06-c78"/>
+                <outlet property="label_8a63_0_view" destination="3ae-de-f8a" id="c37-d3-84e"/>
+                <outlet property="image_0_view" destination="2e0-ed-268" id="2f0-bc-df2"/>
+                <outlet property="image_90f4_0_view" destination="8b0-a3-790" id="25f-60-ef1"/>
+                <outlet property="label_7df8_0_view" destination="cfd-68-07d" id="706-74-c71"/>
+                <outlet property="img_windmill_pylon_0_view" destination="18e-1e-53c" id="663-cd-129"/>
+                <outlet property="label_3641_0_view" destination="130-b0-f36" id="eea-cd-074"/>
+                <outlet property="img_windmill_0_view" destination="c0f-10-c4b" id="9db-c7-4a8"/>
+                <outlet property="lbl_state_0_view" destination="cf7-49-7e1" id="252-b5-a40"/>
+                <outlet property="lbl_state_value_0_view" destination="b6f-18-f5c" id="1b0-fe-454"/>
+                <outlet property="btn_state_on_0_view" destination="6c1-c6-ecc" id="0e0-2d-393"/>
+                <outlet property="btn_state_off_0_view" destination="af5-cd-b56" id="954-1a-64b"/>
+                <outlet property="sc_state_0_view" destination="28e-f5-4f7" id="422-2d-084"/>
+                <outlet property="lbl_power_value_0_view" destination="fa7-cd-c8b" id="af9-b9-1c2"/>
+                <outlet property="lbl_timestamp_0_view" destination="a45-fc-cf6" id="199-3d-4a9"/>
+                <outlet property="lbl_power_0_view" destination="120-81-d46" id="908-cb-e57"/>
+                <outlet property="sc_power_0_view" destination="8aa-ec-8cc" id="167-43-7cb"/>
+                <outlet property="trend_8e67_0_view" destination="960-cb-08e" id="d90-1d-04c"/>
+                <outlet property="label_fd57_0_view" destination="284-c0-3fd" id="53a-d2-09e"/>
+                <outlet property="lbl_nightmode_0_view" destination="0c0-fd-56d" id="cfe-21-6b8"/>
+                <outlet property="lbl_nightmode_value_0_view" destination="191-44-431" id="6a4-48-8cf"/>
+                <outlet property="btn_nightmode_on_0_view" destination="37c-92-8c9" id="fd8-97-0d3"/>
+                <outlet property="btn_nightmode_off_0_view" destination="4a7-41-ab7" id="3f6-0b-402"/>
+                <outlet property="sc_nightmode_0_view" destination="477-f2-632" id="eb7-cf-5eb"/>
+                <outlet property="simplecontainer_f7c4_0_view" destination="0bb-c6-9f7" id="b6c-08-e43"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="61d-b7-698">
+            <rect key="frame" x="0.0" y="0.0" width="1024.0" height="768.0"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" contentMode="scaleAspectFit" id="0bb-c6-9f7" customClass="MWSimpleContainerView" userLabel="Simplecontainer_f7c4" hidden="NO" userInteractionEnabled="YES">
+                    <rect key="frame" x="0.0" y="20.0" width="1028.0" height="748.0"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="" textAlignment="center" id="8a6-8d-08d" customClass="MWLabelView" userLabel="Grass" numberOfLines="1" hidden="NO">
+                            <accessibility key="accessibilityConfiguration" label="grass">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="0.0" y="586.0" width="1700.0" height="165.0"/>
+                            <color key="backgroundColor" red="0.6823529411764706" green="0.8823529411764706" blue="0.7333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.9529411764705882" green="0.9529411764705882" blue="0.9568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11.0"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="" textAlignment="center" id="54f-d9-cf3" customClass="MWLabelView" userLabel="Sky" numberOfLines="1" hidden="NO">
+                            <accessibility key="accessibilityConfiguration" label="sky">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="0.0" y="0.0" width="1700.0" height="591.0"/>
+                            <color key="backgroundColor" red="0.8274509803921568" green="0.9372549019607843" blue="0.9764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.0" green="0.2" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11.0"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleAspectFit" id="c06-ac-dc9" customClass="MWTrendView" userLabel="Trend_c9a4" hidden="NO" userInteractionEnabled="YES">
+                            <rect key="frame" x="1060.0" y="510.0" width="290.0" height="196.0"/>
+                            <color key="backgroundColor" red="0.9529411764705882" green="0.9529411764705882" blue="0.9568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                            <accessibility key="accessibilityConfiguration" label="Trend_c9a4">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </view>
+                        <view contentMode="scaleAspectFit" id="e6a-60-9da" customClass="MWTrendView" userLabel="Trend_da6d" hidden="NO" userInteractionEnabled="YES">
+                            <rect key="frame" x="1370.0" y="510.0" width="290.0" height="196.0"/>
+                            <color key="backgroundColor" red="0.9529411764705882" green="0.9529411764705882" blue="0.9568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                            <accessibility key="accessibilityConfiguration" label="Trend_da6d">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Leistung:" textAlignment="left" id="7b7-ff-4df" customClass="MWLabelView" userLabel="Label_df18" numberOfLines="1" hidden="NO">
+                            <accessibility key="accessibilityConfiguration" label="Label_df18">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="1060.0" y="43.0" width="200.0" height="60.0"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30.0"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Status:" textAlignment="left" id="3ae-de-f8a" customClass="MWLabelView" userLabel="Label_8a63" numberOfLines="1" hidden="NO">
+                            <accessibility key="accessibilityConfiguration" label="Label_8a63">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="1370.0" y="467.0" width="100.0" height="40.0"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16.0"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <imageView id="2e0-ed-268" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" image="monkeyworks_logo_white" customClass="MWImageView" userLabel="" hidden="NO" userInteractionEnabled="YES">
+                            <accessibility key="accessibilityConfiguration">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="821.0" y="622.0" width="154.0" height="98.0"/>
+                            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView id="8b0-a3-790" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" image="lightning_icon" customClass="MWImageView" userLabel="Image_90f4" hidden="NO" userInteractionEnabled="YES">
+                            <accessibility key="accessibilityConfiguration" label="Image_90f4">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="457.0" y="396.0" width="78.0" height="85.0"/>
+                            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Alle Alarme" textAlignment="left" id="cfd-68-07d" customClass="MWLabelView" userLabel="Label_7df8" numberOfLines="1" hidden="NO">
+                            <accessibility key="accessibilityConfiguration" label="Label_7df8">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="545.0" y="396.0" width="349.0" height="91.0"/>
+                            <color key="textColor" red="1.0" green="0.4" blue="0.4" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="53.0"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <imageView id="18e-1e-53c" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" image="windmill_pylon" customClass="MWImageView" userLabel="Img_windmill_pylon" hidden="NO" userInteractionEnabled="YES">
+                            <accessibility key="accessibilityConfiguration" label="img_windmill_pylon">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="132.0" y="237.0" width="101.0" height="412.0"/>
+                            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="1.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="〉" textAlignment="center" id="130-b0-f36" customClass="MWLabelView" userLabel="Label_3641" numberOfLines="1" hidden="NO">
+                            <accessibility key="accessibilityConfiguration" label="Label_3641">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="984.0" y="291.0" width="96.0" height="188.0"/>
+                            <color key="backgroundColor" red="0.8274509803921568" green="0.9372549019607843" blue="0.9764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.9490196078431372" green="0.3803921568627451" blue="0.00392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="110.0"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="1.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <imageView id="c0f-10-c4b" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" image="windmill" customClass="MWImageView" userLabel="Img_windmill" hidden="NO" userInteractionEnabled="YES">
+                            <accessibility key="accessibilityConfiguration" label="img_windmill">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="3.0" y="81.0" width="360.0" height="360.0"/>
+                            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="2.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <view contentMode="scaleAspectFit" id="28e-f5-4f7" customClass="MWSimpleContainerView" userLabel="Sc_state" hidden="NO" userInteractionEnabled="YES">
+                            <rect key="frame" x="673.0" y="215.0" width="200.0" height="160.0"/>
+                            <subviews>
+<label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Status:" textAlignment="left" id="cf7-49-7e1" customClass="MWLabelView" userLabel="Lbl_state" numberOfLines="1" hidden="NO">
+    <accessibility key="accessibilityConfiguration" label="lbl_state">
+        <bool key="isElement" value="YES"/>
+    </accessibility>
+    <rect key="frame" x="10.0" y="15.0" width="100.0" height="40.0"/>
+    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="16.0"/>
+    <nil key="highlightedColor"/>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</label>
+<label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Wert" textAlignment="left" id="b6f-18-f5c" customClass="MWLabelView" userLabel="Lbl_state_value" numberOfLines="1" hidden="NO">
+    <accessibility key="accessibilityConfiguration" label="lbl_state_value">
+        <bool key="isElement" value="YES"/>
+    </accessibility>
+    <rect key="frame" x="120.0" y="15.0" width="70.0" height="40.0"/>
+    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="16.0"/>
+    <nil key="highlightedColor"/>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</label>
+<button opaque="NO" userInteractionEnabled="YES" contentMode="left" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6c1-c6-ecc" customClass="MWButtonView" userLabel="Btn_state_on" hidden="NO">
+    <rect key="frame" x="10.0" y="80.0" width="85.0" height="60.0"/>
+    <color key="backgroundColor" red="0.0" green="0.5019607843137255" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="24.0"/>
+    <state key="normal" title="An">
+        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    </state>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</button>
+<button opaque="NO" userInteractionEnabled="YES" contentMode="left" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="af5-cd-b56" customClass="MWButtonView" userLabel="Btn_state_off" hidden="NO">
+    <rect key="frame" x="105.0" y="80.0" width="85.0" height="60.0"/>
+    <color key="backgroundColor" red="1.0" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="24.0"/>
+    <state key="normal" title="Aus">
+        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    </state>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</button>
+                            </subviews>
+                            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="10.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                            <accessibility key="accessibilityConfiguration" label="sc_state">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </view>
+                        <view contentMode="scaleAspectFit" id="8aa-ec-8cc" customClass="MWSimpleContainerView" userLabel="Sc_power" hidden="NO" userInteractionEnabled="YES">
+                            <rect key="frame" x="386.0" y="113.0" width="590.0" height="80.0"/>
+                            <subviews>
+<label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Wert" textAlignment="left" id="fa7-cd-c8b" customClass="MWLabelView" userLabel="Lbl_power_value" numberOfLines="1" hidden="NO">
+    <accessibility key="accessibilityConfiguration" label="lbl_power_value">
+        <bool key="isElement" value="YES"/>
+    </accessibility>
+    <rect key="frame" x="220.0" y="10.0" width="150.0" height="60.0"/>
+    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="boldSystem" pointSize="28.0"/>
+    <nil key="highlightedColor"/>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</label>
+<label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Zeitstempel" textAlignment="left" id="a45-fc-cf6" customClass="MWLabelView" userLabel="Lbl_timestamp" numberOfLines="1" hidden="NO">
+    <accessibility key="accessibilityConfiguration" label="lbl_timestamp">
+        <bool key="isElement" value="YES"/>
+    </accessibility>
+    <rect key="frame" x="380.0" y="30.0" width="200.0" height="40.0"/>
+    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="15.0"/>
+    <nil key="highlightedColor"/>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+            <color key="value" red="0.9529411764705882" green="0.9529411764705882" blue="0.9568627450980393" alpha="0.0" colorSpace="calibratedRGB"/>
+        </userDefinedRuntimeAttribute>
+    </userDefinedRuntimeAttributes>
+</label>
+<label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Leistung:" textAlignment="left" id="120-81-d46" customClass="MWLabelView" userLabel="Lbl_power" numberOfLines="1" hidden="NO">
+    <accessibility key="accessibilityConfiguration" label="lbl_power">
+        <bool key="isElement" value="YES"/>
+    </accessibility>
+    <rect key="frame" x="10.0" y="10.0" width="200.0" height="60.0"/>
+    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="boldSystem" pointSize="30.0"/>
+    <nil key="highlightedColor"/>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</label>
+                            </subviews>
+                            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="10.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                            <accessibility key="accessibilityConfiguration" label="sc_power">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </view>
+                        <view contentMode="scaleAspectFit" id="960-cb-08e" customClass="MWTrendView" userLabel="Trend_8e67" hidden="NO" userInteractionEnabled="YES">
+                            <rect key="frame" x="1060.0" y="113.0" width="600.0" height="315.0"/>
+                            <color key="backgroundColor" red="0.9529411764705882" green="0.9529411764705882" blue="0.9568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="10.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                            <accessibility key="accessibilityConfiguration" label="Trend_8e67">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Nachtmodus:" textAlignment="left" id="284-c0-3fd" customClass="MWLabelView" userLabel="Label_fd57" numberOfLines="1" hidden="NO">
+                            <accessibility key="accessibilityConfiguration" label="Label_fd57">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                            <rect key="frame" x="1060.0" y="467.0" width="100.0" height="40.0"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16.0"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="10.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleAspectFit" id="477-f2-632" customClass="MWSimpleContainerView" userLabel="Sc_nightmode" hidden="NO" userInteractionEnabled="YES">
+                            <rect key="frame" x="457.0" y="214.0" width="200.0" height="160.0"/>
+                            <subviews>
+<label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Nachtmodus:" textAlignment="left" id="0c0-fd-56d" customClass="MWLabelView" userLabel="Lbl_nightmode" numberOfLines="1" hidden="NO">
+    <accessibility key="accessibilityConfiguration" label="lbl_nightmode">
+        <bool key="isElement" value="YES"/>
+    </accessibility>
+    <rect key="frame" x="10.0" y="15.0" width="100.0" height="40.0"/>
+    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="16.0"/>
+    <nil key="highlightedColor"/>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</label>
+<label opaque="NO" userInteractionEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" text="Wert" textAlignment="left" id="191-44-431" customClass="MWLabelView" userLabel="Lbl_nightmode_value" numberOfLines="1" hidden="NO">
+    <accessibility key="accessibilityConfiguration" label="lbl_nightmode_value">
+        <bool key="isElement" value="YES"/>
+    </accessibility>
+    <rect key="frame" x="120.0" y="15.0" width="70.0" height="40.0"/>
+    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="16.0"/>
+    <nil key="highlightedColor"/>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</label>
+<button opaque="NO" userInteractionEnabled="YES" contentMode="left" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37c-92-8c9" customClass="MWButtonView" userLabel="Btn_nightmode_on" hidden="NO">
+    <rect key="frame" x="10.0" y="80.0" width="85.0" height="60.0"/>
+    <color key="backgroundColor" red="0.0" green="0.5019607843137255" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="24.0"/>
+    <state key="normal" title="An">
+        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    </state>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</button>
+<button opaque="NO" userInteractionEnabled="YES" contentMode="left" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4a7-41-ab7" customClass="MWButtonView" userLabel="Btn_nightmode_off" hidden="NO">
+    <rect key="frame" x="105.0" y="80.0" width="85.0" height="60.0"/>
+    <color key="backgroundColor" red="1.0" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <fontDescription key="fontDescription" type="system" pointSize="24.0"/>
+    <state key="normal" title="Aus">
+        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    </state>
+    <userDefinedRuntimeAttributes>
+        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+            <integer key="value" value="0.0"/>
+        </userDefinedRuntimeAttribute>
+        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+    </userDefinedRuntimeAttributes>
+</button>
+                            </subviews>
+                            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+    <integer key="value" value="12.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+    <integer key="value" value="0.0"/>
+</userDefinedRuntimeAttribute>
+<userDefinedRuntimeAttribute keyPath="borderColor"/>
+                            </userDefinedRuntimeAttributes>
+                            <accessibility key="accessibilityConfiguration" label="sc_nightmode">
+<bool key="isElement" value="YES"/>
+                            </accessibility>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+                            <integer key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <integer key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+                        <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                            <size key="value" width="1700.0" height="748.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility key="accessibilityConfiguration" label="SimpleContainer_f7c4">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <constraints/>
+        </view>
+    </objects>
+    <resources>
+        <image name="monkeyworks_logo_white" width="154.0" height="98.0"/>
+        <image name="lightning_icon" width="78.0" height="85.0"/>
+        <image name="windmill_pylon" width="101.0" height="412.0"/>
+        <image name="windmill" width="360.0" height="360.0"/>
+    </resources>
+</document>

@@ -1,0 +1,150 @@
+{
+  "managingServers": [
+    {
+      "name": "windmill_server_hub",
+      "type": "MovisaServerImpl",
+      "url": "wss://samples.monkey-works.de:16712/windmill/ws",
+      "managedSubscriptions": [
+        {
+          "name": "default_subscription",
+          "publishingInterval": 2000,
+          "managedMonitoredItems": [
+            {
+              "name": "mon_state",
+              "samplingRate": 2000,
+              "dataItemToMonitor": "state"
+            },
+            {
+              "name": "mon_nightMode",
+              "samplingRate": 2000,
+              "dataItemToMonitor": "nightMode"
+            },
+            {
+              "name": "mon_power",
+              "samplingRate": 2000,
+              "dataItemToMonitor": "power"
+            },
+            {
+              "name": "mon_power_timestamp",
+              "samplingRate": 2000,
+              "dataItemToMonitor": "power_timestamp"
+            }
+          ]
+        }
+      ],
+      "managedServers": [
+        {
+          "name": "windmill_server",
+          "type": "OpcUaServerImpl",
+          "url": "opc.tcp://monkey-works.de:2015/windmill"
+        }
+      ],
+      "managedServerDataItems": [
+        {
+          "type": "DataVariable",
+          "name": "nightMode",
+          "accessingDataItems": [
+            {
+              "name": "nightMode",
+              "type": "boolean",
+              "maxDataItemValues": 1,
+              "dimension": {
+                "name": "default_dimension",
+                "unit": "",
+                "factor": 1.0,
+                "fractionDigits": 0
+              },
+              "alarms": [],
+              "signalsOnChange": [
+                {
+                  "name": "nightmode_has_changed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "DataVariable",
+          "name": "power",
+          "accessingDataItems": [
+            {
+              "name": "power",
+              "type": "rational",
+              "maxValue": 3.0,
+              "minValue": 0.0,
+              "maxDataItemValues": 1,
+              "dimension": {
+                "name": "mw_dimension",
+                "unit": "MW",
+                "factor": 1.0,
+                "fractionDigits": 2
+              },
+              "alarms": [
+                {
+                  "name": "power_notifier",
+                  "relatedDataItem": "mon_power",
+                  "signalsOnStatusChange": []
+                }
+              ],
+              "signalsOnChange": [
+                {
+                  "name": "power_has_changed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "DataVariable",
+          "name": "power_timestamp",
+          "accessingDataItems": [
+            {
+              "name": "power_timestamp",
+              "type": "string",
+              "maxDataItemValues": 1,
+              "dimension": {
+                "name": "default_dimension",
+                "unit": "",
+                "factor": 1.0,
+                "fractionDigits": 0
+              },
+              "alarms": [],
+              "signalsOnChange": [
+                {
+                  "name": "timestamp_power_has_changed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "DataVariable",
+          "name": "state",
+          "accessingDataItems": [
+            {
+              "name": "state",
+              "type": "integer",
+              "maxValue": 3.0,
+              "minValue": 0.0,
+              "maxDataItemValues": 1,
+              "dimension": {
+                "name": "default_dimension",
+                "unit": "",
+                "factor": 1.0,
+                "fractionDigits": 0
+              },
+              "alarms": [],
+              "signalsOnChange": [
+                {
+                  "name": "state_has_changed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "leanHmiServers": [],
+  "localDataItems": []
+}

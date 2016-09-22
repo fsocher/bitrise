@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlarmViewPanelController">
+            <connections>
+                <outlet property="view" destination="cde-38-58f" id="f85-3e-cf8"/>
+                <outlet property="button_74da_0_view" destination="c80-84-a74" id="ef6-72-328"/>
+                <outlet property="image_b8cf_0_view" destination="f19-92-9b8" id="0e5-b5-274"/>
+                <outlet property="alarmcontrol_74bf_0_view" destination="128-39-b74" id="a81-e4-aa6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="cde-38-58f">
+            <rect key="frame" x="0.0" y="0.0" width="1024.0" height="768.0"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" userInteractionEnabled="YES" contentMode="left" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c80-84-a74" customClass="MWButtonView" userLabel="Button_74da" hidden="NO">
+                    <rect key="frame" x="11.0" y="27.0" width="360.0" height="69.0"/>
+                    <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="40.0"/>
+                    <state key="normal" title="〈 Übersicht">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+                            <integer key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <integer key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <imageView id="f19-92-9b8" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" image="monkeyworks_logo_rgb" customClass="MWImageView" userLabel="Image_b8cf" hidden="NO" userInteractionEnabled="YES">
+                    <accessibility key="accessibilityConfiguration" label="Image_b8cf">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                    <rect key="frame" x="798.0" y="50.0" width="196.0" height="125.0"/>
+                    <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+                            <integer key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <integer key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <view contentMode="scaleAspectFit" id="128-39-b74" customClass="MWAlarmControlView" userLabel="Alarmcontrol_74bf" hidden="NO" userInteractionEnabled="YES">
+                    <rect key="frame" x="137.0" y="279.0" width="629.0" height="390.0"/>
+                    <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.zPosition">
+                            <integer key="value" value="10.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <integer key="value" value="2.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute keyPath="borderColor"/>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility key="accessibilityConfiguration" label="AlarmControl_74bf">
+                        <bool key="isElement" value="YES"/>
+                    </accessibility>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <constraints/>
+        </view>
+    </objects>
+    <resources>
+        <image name="monkeyworks_logo_rgb" width="196.0" height="125.0"/>
+    </resources>
+</document>

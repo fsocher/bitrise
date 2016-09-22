@@ -1,0 +1,38 @@
+
+/* Class = "UILabel"; text = "Assigned Name"; ObjectID = "0Le-ha-L9O"; */
+"0Le-ha-L9O.text" = "Zugewiesener Name";
+
+/* Class = "UIButton"; accessibilityHint = "Tap to change color"; ObjectID = "196-gB-fdV"; */
+"196-gB-fdV.accessibilityHint" = "Tap um Farbe zu ändern";
+
+/* Class = "UIButton"; accessibilityIdentifier = "ChangeColorButton"; ObjectID = "196-gB-fdV"; */
+"196-gB-fdV.accessibilityIdentifier" = "ChangeColorButton";
+
+/* Class = "UIButton"; accessibilityLabel = "ChangeColorButton"; ObjectID = "196-gB-fdV"; */
+"196-gB-fdV.accessibilityLabel" = "ChangeColorButton";
+
+/* Class = "UISegmentedControl"; 1mN-s2-ZEN.segmentTitles[0] = "Keine"; ObjectID = "1mN-s2-ZEN"; */
+"1mN-s2-ZEN.segmentTitles[0]" = "Keine";
+
+/* Class = "UISegmentedControl"; 1mN-s2-ZEN.segmentTitles[1] = "Links"; ObjectID = "1mN-s2-ZEN"; */
+"1mN-s2-ZEN.segmentTitles[1]" = "Links";
+
+/* Class = "UISegmentedControl"; 1mN-s2-ZEN.segmentTitles[2] = "Rechts"; ObjectID = "1mN-s2-ZEN"; */
+"1mN-s2-ZEN.segmentTitles[2]" = "Rechts";
+
+/* Class = "UILabel"; text = "Name für den Graphen"; ObjectID = "2rq-ZA-7mR"; */
+"2rq-ZA-7mR.text" = "Name für den Graphen";
+
+/* Class = "UIView"; accessibilityLabel = "settingsTableView"; ObjectID = "LcN-bb-LTp"; */
+"LcN-bb-LTp.accessibilityLabel" = "settingsTableView";
+
+/* Class = "UILabel"; text = "Assigned To"; ObjectID = "XDT-rR-7uK"; */
+"XDT-rR-7uK.text" = "Zugewiesen zu";
+
+/* Class = "UILabel"; text = "SignalName"; ObjectID = "iU9-e3-VZa"; */
+"iU9-e3-VZa.text" = "SignalName";
+
+/* Class = "UILabel"; text = "Zuweisung zur Achse"; ObjectID = "scp-1P-fVB"; */
+"scp-1P-fVB.text" = "Zuweisung zur Achse";
+
+"x1r-ws-C1P.text" = "Farbe";

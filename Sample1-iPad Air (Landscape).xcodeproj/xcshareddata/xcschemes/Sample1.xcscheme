@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "#!bin/bash&#10;&#10;BASE=&quot;$PROJECT_DIR&quot;&#10;RESOURCES=&quot;$BASE/Resources&quot;&#10;CLIENT_DATA_MODEL_PATH=&quot;$RESOURCES/ClientDataModel&quot;&#10;COREDATA_MODEL_PATH=&quot;$RESOURCES/Bundles/MWBaseLibRes.bundle/EntityModel.momd&quot;&#10;CDM_JSON_PATH=&quot;$CLIENT_DATA_MODEL_PATH/ClientDataModel.json&quot;&#10;OUTPUT_PATH=&quot;$CLIENT_DATA_MODEL_PATH/db&quot;&#10;&#10;chmod +x &quot;$RESOURCES/Binaries/ModelGenerator&quot;&#10;&#10;if [ -d &quot;$OUTPUT_PATH&quot; ]; then&#10;    rm -rf &quot;$OUTPUT_PATH&quot;&#10;fi&#10;&#10;`&quot;$RESOURCES/Binaries/ModelGenerator&quot; &quot;$COREDATA_MODEL_PATH&quot; &quot;$CDM_JSON_PATH&quot; &quot;$OUTPUT_PATH&quot;`&#10;&#10;DEVICE_FRAMEWORKS=&quot;$RESOURCES/Libraries/Device&quot;&#10;SIMULATOR_FRAMEWORKS=&quot;$RESOURCES/Libraries/Simulator&quot;&#10;FRAMEWORKS=&quot;$RESOURCES/Libraries/Frameworks&quot;&#10;CHARTS=&quot;Charts.framework/Charts&quot;&#10;AFNETWORKING=&quot;AFNetworking.framework/AFNetworking&quot;&#10;&#10;rm -rf &quot;$FRAMEWORKS/Charts.framework&quot;&#10;rm -rf &quot;$FRAMEWORKS/AFNetworking.framework&quot;&#10;&#10;SOURCE_FOLDER=&quot;&quot;&#10;if [[ $SDK_NAME =~ ^iphoneos* ]]; then&#10;    SOURCE_FOLDER=&quot;$DEVICE_FRAMEWORKS&quot;&#10;else&#10;    SOURCE_FOLDER=&quot;$SIMULATOR_FRAMEWORKS&quot;&#10;fi&#10;&#10;cp -r &quot;$SOURCE_FOLDER/AFNetworking.framework&quot; &quot;$FRAMEWORKS/AFNetworking.framework&quot;&#10;cp -r &quot;$SOURCE_FOLDER/Charts.framework&quot; &quot;$FRAMEWORKS/Charts.framework&quot;&#10;&#10;lipo -info &quot;$FRAMEWORKS/$CHARTS&quot; &gt;&gt; &quot;/Users/sn3ek/.monkey-works/log/ios_archives.log&quot;&#10;lipo -info &quot;$FRAMEWORKS/$AFNETWORKING&quot; &gt;&gt; &quot;/Users/sn3ek/.monkey-works/log/ios_archives.log&quot;&#10;&#10;chmod +x &quot;$RESOURCES/Libraries/Frameworks/AFNetworking.framework/AFNetworking&quot;&#10;chmod +x &quot;$RESOURCES/Libraries/Frameworks/Charts.framework/Charts&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "A7373D92F2B5E29D632CD600"
+                     BuildableName = "Sample1.app"
+                     BlueprintName = "Sample1"
+                     ReferencedContainer = "container:Sample1-iPad Air (Landscape).xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A7373D92F2B5E29D632CD600"
+               BuildableName = "Sample1.app"
+               BlueprintName = "Sample1"
+               ReferencedContainer = "container:Sample1-iPad Air (Landscape).xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04E5B378CEFF170DC6AFA3FC"
+               BuildableName = "Sample1Tests.xctest"
+               BlueprintName = "Sample1Tests"
+               ReferencedContainer = "container:Sample1-iPad Air (Landscape).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A7373D92F2B5E29D632CD600"
+            BuildableName = "Sample1.app"
+            BlueprintName = "Sample1"
+            ReferencedContainer = "container:Sample1-iPad Air (Landscape).xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A7373D92F2B5E29D632CD600"
+            BuildableName = "Sample1.app"
+            BlueprintName = "Sample1"
+            ReferencedContainer = "container:Sample1-iPad Air (Landscape).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A7373D92F2B5E29D632CD600"
+            BuildableName = "Sample1.app"
+            BlueprintName = "Sample1"
+            ReferencedContainer = "container:Sample1-iPad Air (Landscape).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
